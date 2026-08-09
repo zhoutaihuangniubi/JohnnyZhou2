@@ -41,9 +41,14 @@ jobs:
         run: |
           git config user.name "Podcast Bot"
           git config user.email "bot@johnny-bread.podcast"
+          # Save feed directory contents to temp
+          cp -r feed /tmp/feed_deploy
+          # Switch to feed branch
           git checkout --orphan feed 2>/dev/null || git checkout feed
           git rm -rf . 2>/dev/null || true
-          cp -rv ../feed/* . 2>/dev/null || true
+          # Copy feed contents to root of feed branch
+          cp -rv /tmp/feed_deploy/* . 2>/dev/null || true
+          # Push
           git add -A
           git commit -m "Update RSS feed - $(date +%Y-%m-%d)" || echo "No changes to commit"
           git push -f "https://${{ secrets.GHP_TOKEN }}@github.com/zhoutaihuangniubi/JohnnyZhou2.git" feed
