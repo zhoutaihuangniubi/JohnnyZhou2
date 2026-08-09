@@ -1,0 +1,12 @@
+.env
+output/
+feed/
+__pycache__/
+*.pyc
+.venv/
+*.icns
+*.rtf
+*.spec
+.DS_Store
+.claude/
+data/

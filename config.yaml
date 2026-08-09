@@ -1,0 +1,52 @@
+podcast:
+  name: "Johnny的每日信息面包"
+  author: "Johnny Zhou"
+  language: "zh-CN"
+  target_duration_minutes: 6
+  # {date} will be replaced with Chinese date like "2026年5月18号"
+  intro_template: |
+    信息超有料
+    小心别噎着
+    我是Johnny Zhou，一名NYU Stern的大学生
+    欢迎品尝{date}的每日信息面包
+    赶紧把今日面包塞进肚子叭～
+  outro_text: "这就是今天的信息面包，你吃饱了吗～别忘了明天再来吃点信息面包～"
+
+news:
+  sources:
+    - the-new-york-times
+    - the-economist
+    - reuters
+    - bloomberg
+    - the-washington-post
+    - financial-times
+  max_articles_to_fetch: 35
+  articles_to_select: 7
+
+tts:
+  voice: "zh-CN-YunyangNeural"
+  speed: "+5%"
+
+ai:
+  provider: "deepseek"
+  model: "deepseek-chat"
+  max_tokens: 8192
+
+upload:
+  method: "rss"
+  rss_base_url: "https://xuanchenzhou.github.io/daily-bread"
+
+output:
+  directory: "./output"
+  keep_files_days: 7
+
+streak:
+  enabled: true
+  schedule: "14:00"          # 每天 14:00 执行 (HH:MM, 24小时制)
+  jitter_minutes: 20         # ±20 分钟随机延迟
+  message: "🔥"              # 默认消息
+  headless: true             # 是否无头运行（定时任务建议 true）
+  contacts:
+    - name: "317"
+    - name: "guranpp"
+    - name: "李天鹤"
