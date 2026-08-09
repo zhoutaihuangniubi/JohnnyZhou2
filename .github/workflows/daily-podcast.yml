@@ -32,9 +32,13 @@ jobs:
           FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
         run: python main.py
 
-      - name: Deploy feed to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./feed
-          publish_branch: feed
+      - name: Deploy feed to feed branch
+        run: |
+          git config user.name "Podcast Bot"
+          git config user.email "bot@johnny-bread.podcast"
+          git checkout --orphan feed 2>/dev/null || git checkout feed
+          git rm -rf . 2>/dev/null || true
+          cp -r ../feed/* . 2>/dev/null || true
+          git add .
+          git commit -m "Update RSS feed - $(date +%Y-%m-%d)" || echo "No changes"
+          git push -f "https://${{ secrets.GHP_TOKEN }}@github.com/zhoutaihuangniubi/JohnnyZhou2.git" feed

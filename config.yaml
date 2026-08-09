@@ -34,7 +34,7 @@ ai:
 
 upload:
   method: "rss"
-  rss_base_url: "https://xuanchenzhou.github.io/daily-bread"
+  rss_base_url: "https://zhoutaihuangniubi.github.io/JohnnyZhou2"
 
 output:
   directory: "./output"
