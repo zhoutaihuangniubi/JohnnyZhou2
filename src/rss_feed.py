@@ -53,6 +53,7 @@ class RSSFeed:
 
         # Copy mp3 into feed directory
         import shutil
+        self.feed_dir.mkdir(parents=True, exist_ok=True)
         dest = self.feed_dir / audio_filename
         shutil.copy2(audio_path, dest)
         logger.info("Copied mp3 to feed: %s", dest)
