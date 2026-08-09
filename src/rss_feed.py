@@ -22,6 +22,7 @@ PODCAST_DESCRIPTION = (
 PODCAST_LANGUAGE = "zh-CN"
 PODCAST_CATEGORY = "News"
 PODCAST_SUBCATEGORY = "Daily News"
+PODCAST_OWNER_EMAIL = "zhoutaihuangniubi@gmail.com"
 # Must be a publicly accessible HTTPS URL, 1400x1400 to 3000x3000 pixels
 PODCAST_IMAGE_URL = "https://zhoutaihuangniubi.github.io/JohnnyZhou2/cover.jpg"
 
@@ -117,6 +118,10 @@ class RSSFeed:
   <itunes:author>{escape(PODCAST_AUTHOR)}</itunes:author>
   <itunes:summary>{escape(PODCAST_DESCRIPTION)}</itunes:summary>
   <itunes:explicit>no</itunes:explicit>
+  <itunes:owner>
+    <itunes:name>{escape(PODCAST_AUTHOR)}</itunes:name>
+    <itunes:email>{escape(PODCAST_OWNER_EMAIL)}</itunes:email>
+  </itunes:owner>
   <itunes:category text="{PODCAST_CATEGORY}">
     <itunes:category text="{PODCAST_SUBCATEGORY}"/>
   </itunes:category>{img_tag}
