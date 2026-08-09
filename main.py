@@ -18,6 +18,7 @@ Usage:
 import argparse
 import logging
 import os
+import shutil
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -181,6 +182,12 @@ def main():
         else:
             feed_dir = Path("feed")
             feed = RSSFeed(str(feed_dir), base_url)
+            # Copy cover image to feed directory if available
+            cover_path = Path("data/cover.jpg")
+            if cover_path.exists():
+                feed_dir.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(str(cover_path), str(feed_dir / "cover.jpg"))
+                logger.info("Cover image copied to feed")
             feed.add_episode(
                 audio_path=final_audio,
                 title=title,
