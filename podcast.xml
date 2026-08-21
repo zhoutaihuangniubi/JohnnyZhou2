@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+  <title>Johnny的每日信息面包</title>
+  <link>https://zhoutaihuangniubi.github.io/JohnnyZhou2</link>
+  <language>zh-CN</language>
+  <description>信息超有料，小心别噎着。Johnny Zhou，NYU Stern大学生，每天用讲人话的方式精选全球政经科技新闻。政治/经济/科技/投资，轻松有趣但不失专业。</description>
+  <lastBuildDate>Fri, 21 Aug 2026 22:58:42 +0000</lastBuildDate>
+  <itunes:author>Johnny Zhou</itunes:author>
+  <itunes:summary>信息超有料，小心别噎着。Johnny Zhou，NYU Stern大学生，每天用讲人话的方式精选全球政经科技新闻。政治/经济/科技/投资，轻松有趣但不失专业。</itunes:summary>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:owner>
+    <itunes:name>Johnny Zhou</itunes:name>
+    <itunes:email>zhoutaihuangniubi@gmail.com</itunes:email>
+  </itunes:owner>
+  <itunes:category text="News">
+    <itunes:category text="Daily News"/>
+  </itunes:category>
+    <image>
+      <url>https://zhoutaihuangniubi.github.io/JohnnyZhou2/cover.jpg</url>
+      <title>Johnny的每日信息面包</title>
+      <link>https://zhoutaihuangniubi.github.io/JohnnyZhou2</link>
+    </image>
+    <itunes:image href="https://zhoutaihuangniubi.github.io/JohnnyZhou2/cover.jpg"/>
+
+    <item>
+      <title>AI大混战、关税伤民生、美债破40万亿——今天的面包有点硬</title>
+      <description>本期要点：
+
+1. Anthropic IPO悬念再起，花旗加入承销团，AI资本盛宴即将开席
+2. 美国扼制伊朗经济推高油价，全球市场波动加剧
+3. 关税之痛：罐头汤涨价背后，美国制造业的困境
+4. 沃尔玛业绩疲软，美国消费者开始捂紧钱包
+5. 美债突破40万亿，债券市场如过山车，全球金融面临新考验
+6. CIA离职潮，新退休人员福利发放滞后，人才流失引发担忧
+7. ChatGPT接入iMessage，苹果隐私承诺遭遇新挑战
+
+---
+
+参考资料（APA）：
+
+Bloomberg. (2026, August 21). *Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing*. https://www.bloomberg.com/news/articles/2026-08-20/anthropic-set-to-add-citigroup-to-top-ipo-banks-on-mega-listing
+Bloomberg. (2026, August 21). *Oil Set for Weekly Surge as US Seeks to Throttle Iran’s Economy*. https://www.bloomberg.com/news/articles/2026-08-20/latest-oil-market-news-and-analysis-for-aug-21
+Bloomberg. (2026, August 21). *Canned Soup’s Price Spike Brings Home the Cost of Trump Tariffs*. https://www.bloomberg.com/news/articles/2026-08-20/trump-tariffs-lifted-canned-food-prices-as-tin-mills-closed-big-take-podcast
+The Washington Post. (2026, August 21). *Walmart posts weakest growth in years, a worrying sign of inflation-weary Americans*. https://www.washingtonpost.com/business/2026/08/20/walmart-posts-weakest-growth-years-worrying-signal-inflation-weary-americans/
+The Washington Post. (2026, August 21). *What’s behind the bond market roller coaster?*. https://www.washingtonpost.com/business/2026/08/20/whats-behind-bond-market-roller-coaster/
+The Washington Post. (2026, August 21). *CIA staff exodus leaves new retirees waiting months for benefits*. https://www.washingtonpost.com/national-security/2026/08/20/wave-cia-retirements-resignations-is-swamping-spy-agency/
+Bloomberg. (2026, August 21). *ChatGPT Can Now Control iMessage, Potentially Raising Apple Privacy Concerns*. https://www.bloomberg.com/news/articles/2026-08-20/chatgpt-can-now-control-imessage-potentially-raising-apple-privacy-concerns</description>
+      <itunes:summary>本期要点：
+
+1. Anthropic IPO悬念再起，花旗加入承销团，AI资本盛宴即将开席
+2. 美国扼制伊朗经济推高油价，全球市场波动加剧
+3. 关税之痛：罐头汤涨价背后，美国制造业的困境
+4. 沃尔玛业绩疲软，美国消费者开始捂紧钱包
+5. 美债突破40万亿，债券市场如过山车，全球金融面临新考验
+6. CIA离职潮，新退休人员福利发放滞后，人才流失引发担忧
+7. ChatGPT接入iMessage，苹果隐私承诺遭遇新挑战
+
+---
+
+参考资料（APA）：
+
+Bloomberg. (2026, August 21). *Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing*. https://www.bloomberg.com/news/articles/2026-08-20/anthropic-set-to-add-citigroup-to-top-ipo-banks-on-mega-listing
+Bloomberg. (2026, August 21). *Oil Set for Weekly Surge as US Seeks to Throttle Iran’s Economy*. https://www.bloomberg.com/news/articles/2026-08-20/latest-oil-market-news-and-analysis-for-aug-21
+Bloomberg. (2026, August 21). *Canned Soup’s Price Spike Brings Home the Cost of Trump Tariffs*. https://www.bloomberg.com/news/articles/2026-08-20/trump-tariffs-lifted-canned-food-prices-as-tin-mills-closed-big-take-podcast
+The Washington Post. (2026, August 21). *Walmart posts weakest growth in years, a worrying sign of inflation-weary Americans*. https://www.washingtonpost.com/business/2026/08/20/walmart-posts-weakest-growth-years-worrying-signal-inflation-weary-americans/
+The Washington Post. (2026, August 21). *What’s behind the bond market roller coaster?*. https://www.washingtonpost.com/business/2026/08/20/whats-behind-bond-market-roller-coaster/
+The Washington Post. (2026, August 21). *CIA staff exodus leaves new retirees waiting months for benefits*. https://www.washingtonpost.com/national-security/2026/08/20/wave-cia-retirements-resignations-is-swamping-spy-agency/
+Bloomberg. (2026, August 21). *ChatGPT Can Now Control iMessage, Potentially Raising Apple Privacy Concerns*. https://www.bloomberg.com/news/articles/2026-08-20/chatgpt-can-now-control-imessage-potentially-raising-apple-privacy-concerns</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:10:46</itunes:duration>
+      <enclosure url="https://zhoutaihuangniubi.github.io/JohnnyZhou2/podcast_2026-08-21.mp3" length="10339518" type="audio/mpeg"/>
+      <pubDate>Fri, 21 Aug 2026 22:58:42 +0000</pubDate>
+      <guid isPermaLink="false">https://zhoutaihuangniubi.github.io/JohnnyZhou2/podcast_2026-08-21.mp3</guid>
+    </item>
+</channel>
+</rss>
